@@ -1,0 +1,51 @@
+[
+    {
+        "tt": "Machine learning for molecular and materials science",
+        "ab": "Here we summarize recent progress in machine learning for the chemical sciences. We outline machine-learning techniques that are suitable for addressing research questions in this domain, as well as future directions for the field. We envisage a future in which the design, synthesis, characterization and application of molecules and materials is accelerated by artificial intelligence.",
+        "ti": "2018-07"
+    },
+
+    {
+        "tt": "Accelerated discovery of CO2 electrocatalysts using active machine learning",
+        "ab": "The rapid increase in global energy demand and the need to replace carbon dioxide (CO2)-emitting fossil fuels with renewable sources have driven interest in chemical storage of intermittent solar and wind energy1,2. Particularly attractive is the electrochemical reduction of CO2 to chemical feedstocks, which uses both CO2 and renewable energy3,4,5,6,7,8. Copper has been the predominant electrocatalyst for this reaction when aiming for more valuable multi-carbon products9,10,11,12,13,14,15,16, and process improvements have been particularly notable when targeting ethylene. However, the energy efficiency and productivity (current density) achieved so far still fall below the values required to produce ethylene at cost-competitive prices. Here we describe Cu-Al electrocatalysts, identified using density functional theory calculations in combination with active machine learning, that efficiently reduce CO2 to ethylene with the highest Faradaic efficiency reported so far. This Faradaic efficiency of over 80 per cent (compared to about 66 per cent for pure Cu) is achieved at a current density of 400 milliamperes per square centimetre (at 1.5 volts versus a reversible hydrogen electrode) and a cathodic-side (half-cell) ethylene power conversion efficiency of 55 ± 2 per cent at 150 milliamperes per square centimetre. We perform computational studies that suggest that the Cu-Al alloys provide multiple sites and surface orientations with near-optimal CO binding for both efficient and selective CO2 reduction17. Furthermore, in situ X-ray absorption measurements reveal that Cu and Al enable a favourable Cu coordination environment that enhances C–C dimerization. These findings illustrate the value of computation and machine learning in guiding the experimental exploration of multi-metallic systems that go beyond the limitations of conventional single-metal electrocatalysts.",
+        "ti": "2020-05",
+        "cs": "新型铜铝电催化剂发现;DFT+active machine learning;highest Faradaic efficiency reported so far;"
+    },
+
+    {
+        "tt": "Controlling an organic synthesis robot with machine learning to search for new reactivity",
+        "ab": "The discovery of chemical reactions is an inherently unpredictable and time-consuming process1. An attractive alternative is to predict reactivity, although relevant approaches, such as computer-aided reaction design, are still in their infancy2. Reaction prediction based on high-level quantum chemical methods is complex3, even for simple molecules. Although machine learning is powerful for data analysis4,5, its applications in chemistry are still being developed6. Inspired by strategies based on chemists’ intuition7, we propose that a reaction system controlled by a machine learning algorithm may be able to explore the space of chemical reactions quickly, especially if trained by an expert8. Here we present an organic synthesis robot that can perform chemical reactions and analysis faster than they can be performed manually, as well as predict the reactivity of possible reagent combinations after conducting a small number of experiments, thus effectively navigating chemical reaction space. By using machine learning for decision making, enabled by binary encoding of the chemical inputs, the reactions can be assessed in real time using nuclear magnetic resonance and infrared spectroscopy. The machine learning system was able to predict the reactivity of about 1,000 reaction combinations with accuracy greater than 80 per cent after considering the outcomes of slightly over 10 per cent of the dataset. This approach was also used to calculate the reactivity of published datasets. Further, by using real-time data from our robot, these predictions were followed up manually by a chemist, leading to the discovery of four reactions.",
+        "ti": "2018-07",
+        "cs": "通过预测来发现新的化学反应;machine learning for decision making; "
+    },
+
+    {
+        "tt": "Closed-loop optimization of fast-charging protocols for batteries with machine learning",
+        "ab": "Simultaneously optimizing many design parameters in time-consuming experiments causes bottlenecks in a broad range of scientific and engineering disciplines1,2. One such example is process and control optimization for lithium-ion batteries during materials selection, cell manufacturing and operation. A typical objective is to maximize battery lifetime; however, conducting even a single experiment to evaluate lifetime can take months to years3,4,5. Furthermore, both large parameter spaces and high sampling variability3,6,7 necessitate a large number of experiments. Hence, the key challenge is to reduce both the number and the duration of the experiments required. Here we develop and demonstrate a machine learning methodology  to efficiently optimize a parameter space specifying the current and voltage profiles of six-step, ten-minute fast-charging protocols for maximizing battery cycle life, which can alleviate range anxiety for electric-vehicle users8,9. We combine two key elements to reduce the optimization cost: an early-prediction model5, which reduces the time per experiment by predicting the final cycle life using data from the first few cycles, and a Bayesian optimization algorithm10,11, which reduces the number of experiments by balancing exploration and exploitation to efficiently probe the parameter space of charging protocols. Using this methodology, we rapidly identify high-cycle-life charging protocols among 224 candidates in 16 days (compared with over 500 days using exhaustive search without early prediction), and subsequently validate the accuracy and efficiency of our optimization approach. Our closed-loop methodology automatically incorporates feedback from past experiments to inform future decisions and can be generalized to other applications in battery design and, more broadly, other scientific domains that involve time-intensive experiments and multi-dimensional design spaces.",
+        "ti": "2020-02",
+        "cs": "搜索电池参数设置，使得寿命最大化；prediction+bayesian optimization algorithm;"
+
+    },
+
+    {
+        "tt": "Ultrafast machine vision with 2D material neural network image sensors",
+        "ab": "Machine vision technology has taken huge leaps in recent years, and is now becoming an integral part of various intelligent systems, including autonomous vehicles and robotics. Usually, visual information is captured by a frame-based camera, converted into a digital format and processed afterwards using a machine-learning algorithm such as an artificial neural network (ANN)1. The large amount of (mostly redundant) data passed through the entire signal chain, however, results in low frame rates and high power consumption. Various visual data preprocessing techniques have thus been developed2,3,4,5,6,7 to increase the efficiency of the subsequent signal processing in an ANN. Here we demonstrate that an image sensor can itself constitute an ANN that can simultaneously sense and process optical images without latency. Our device is based on a reconfigurable two-dimensional (2D) semiconductor8,9 photodiode10,11,12 array, and the synaptic weights of the network are stored in a continuously tunable photoresponsivity matrix. We demonstrate both supervised and unsupervised learning and train the sensor to classify and encode images that are optically projected onto the chip with a throughput of 20 million bins per second.",
+        "ti": "2020-03",
+        "cs": "硬件上的提升，在终端放入NN来处理图像，降低数据通信"
+    },
+
+    {
+        "tt": "Fully hardware-implemented memristor convolutional neural network",
+        "ab": "Memristor-enabled neuromorphic computing systems provide a fast and energy-efficient approach to training neural networks1,2,3,4. However, convolutional neural networks (CNNs)—one of the most important models for image recognition5—have not yet been fully hardware-implemented using memristor crossbars, which are cross-point arrays with a memristor device at each intersection. Moreover, achieving software-comparable results is highly challenging owing to the poor yield, large variation and other non-ideal characteristics of devices6,7,8,9. Here we report the fabrication of high-yield, high-performance and uniform memristor crossbar arrays for the implementation of CNNs, which integrate eight 2,048-cell memristor arrays to improve parallel-computing efficiency. In addition, we propose an effective hybrid-training method to adapt to device imperfections and improve the overall system performance. We built a five-layer memristor-based CNN to perform MNIST10 image recognition, and achieved a high accuracy of more than 96 per cent. In addition to parallel convolutions using different kernels with shared inputs, replication of multiple identical kernels in memristor arrays was demonstrated for processing different inputs in parallel. The memristor-based CNN neuromorphic system has an energy efficiency more than two orders of magnitude greater than that of state-of-the-art graphics-processing units, and is shown to be scalable to larger networks, such as residual neural networks. Our results are expected to enable a viable memristor-based non-von Neumann hardware solution for deep neural networks and edge computing.",
+        "ti": "2020-01",
+        "cs": "用忆阻器实现CNN网络；energy efficiency，potential in edge computing"
+    },
+
+    {
+        "tt": "",
+        "ab": "",
+        "ti": "",
+        "cs": ""
+    },
+    
+]

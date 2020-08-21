@@ -1,0 +1,16 @@
+[
+    {
+        "tt": "",
+        "ab": "",
+        "ti": "",
+        "cs": ""
+    },
+
+    {
+        "tt": "Data augmentation in microscopic images for material data mining",
+        "ab": "Recent progress in material data mining has been driven by high-capacity models trained on large datasets. However, collecting experimental data (real data) has been extremely costly owing to the amount of human effort and expertise required. Here, we develop a novel transfer learning strategy to address problems of small or insufficient data. This strategy realizes the fusion of real and simulated data and the augmentation of training data in a data mining procedure. For a specific task of grain instance image segmentation, this strategy aims to generate synthetic data by fusing the images obtained from simulating the physical mechanism of grain formation and the “image style” information in real images. The results show that the model trained with the acquired synthetic data and only 35% of the real data can already achieve competitive segmentation performance of a model trained on all of the real data. Because the time required to perform grain simulation and to generate synthetic data are almost negligible as compared to the effort for obtaining real data, our proposed strategy is able to exploit the strong prediction power of deep learning without significantly increasing the experimental burden of training data preparation.",
+        "ti": "2020-08",
+        "cs": "迁移学习；数据增广，数据融合"
+    },
+    
+]

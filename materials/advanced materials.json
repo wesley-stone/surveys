@@ -1,0 +1,58 @@
+[
+    {
+        "tt": "",
+        "ab": "",
+        "ti": "",
+        "cs": ""
+    },
+
+    {
+        "tt": "Bayesian Machine Learning in Metamaterial Design: Fragile Becomes Supercompressible",
+        "ab": "Designing future‐proof materials goes beyond a quest for the best. The next generation of materials needs to be adaptive, multipurpose, and tunable. This is not possible by following the traditional experimentally guided trial‐and‐error process, as this limits the search for untapped regions of the solution space. Here, a computational data‐driven approach is followed for exploring a new metamaterial concept and adapting it to different target properties, choice of base materials, length scales, and manufacturing processes. Guided by Bayesian machine learning, two designs are fabricated at different length scales that transform brittle polymers into lightweight, recoverable, and supercompressible metamaterials. The macroscale design is tuned for maximum compressibility, achieving strains beyond 94% and recoverable strengths around 0.1 kPa, while the microscale design reaches recoverable strengths beyond 100 kPa and strains around 80%. The data‐driven code is available to facilitate future design and analysis of metamaterials and structures (https://github.com/mabessa/F3DAS).",
+        "ti": "2019-10",
+        "cs": "bayesian machine learning; exploring a new metamaterial concept and adapting it to different target properties"
+    },
+
+    {
+        "tt": "Deep‐Learning‐Enabled Fast Optical Identification and Characterization of 2D Materials",
+        "ab": "Advanced microscopy and/or spectroscopy tools play indispensable roles in nanoscience and nanotechnology research, as they provide rich information about material processes and properties. However, the interpretation of imaging data heavily relies on the “intuition” of experienced researchers. As a result, many of the deep graphical features obtained through these tools are often unused because of difficulties in processing the data and finding the correlations. Such challenges can be well addressed by deep learning. In this work, the optical characterization of 2D materials is used as a case study, and a neural‐network‐based algorithm is demonstrated for the material and thickness identification of 2D materials with high prediction accuracy and real‐time processing capability. Further analysis shows that the trained network can extract deep graphical features such as contrast, color, edges, shapes, flake sizes, and their distributions, based on which an ensemble approach is developed to predict the most relevant physical properties of 2D materials. Finally, a transfer learning technique is applied to adapt the pretrained network to other optical identification applications. This artificial‐intelligence‐based material characterization approach is a powerful tool that would speed up the preparation, initial characterization of 2D materials and other nanomaterials, and potentially accelerate new material discoveries.",
+        "ti": "2020-06",
+        "cs": "image feature extraction; transfer learning; 传统的人工耗时耗力，需要专家知识"
+    },
+
+    {
+        "tt": "Better, Faster, and Less Biased Machine Learning: Electromechanical Switching in Ferroelectric Thin Films",
+        "ab": "Machine‐learning techniques are more and more often applied to the analysis of complex behaviors in materials research. Frequently used to identify fundamental behaviors within large and multidimensional datasets, these techniques are strictly based on mathematical models. Thus, without inherent physical or chemical meaning or constraints, they are prone to biased interpretation. The interpretability of machine‐learning results in materials science, specifically materials’ functionalities, can be vastly improved through physical insights and careful data handling. The use of techniques such as dimensional stacking can provide the much needed physical and chemical constraints, while proper understanding of the assumptions imposed by model parameters can help avoid overinterpretation. These concepts are illustrated by application to recently reported ferroelectric switching experiments in PbZr0.2Ti0.8O3 thin films. Through systematic analysis and introduction of physical constraints, it is argued that the behaviors present are not necessarily due to exotic mechanisms previously suggested, but rather well described by classical ferroelectric switching superimposed by non‐ferroelectric phenomena, such as electrochemical deformation, electrostatic interactions, and/or charge injection.",
+        "ti": "2020-04",
+        "cs": "结合物理规律提升ml的可解释性"
+    },
+
+    {
+        "tt": "Machine Learning Interatomic Potentials as Emerging Tools for Materials Science",
+        "ab": "Atomic‐scale modeling and understanding of materials have made remarkable progress, but they are still fundamentally limited by the large computational cost of explicit electronic‐structure methods such as density‐functional theory. This Progress Report shows how machine learning (ML) is currently enabling a new degree of realism in materials modeling: by “learning” electronic‐structure data, ML‐based interatomic potentials give access to atomistic simulations that reach similar accuracy levels but are orders of magnitude faster. A brief introduction to the new tools is given, and then, applications to some select problems in materials science are highlighted: phase‐change materials for memory devices; nanoparticle catalysts; and carbon‐based electrodes for chemical sensing, supercapacitors, and batteries. It is hoped that the present work will inspire the development and wider use of ML‐based interatomic potentials in diverse areas of materials research.",
+        "ti": "2019-09",
+        "cs": "ML学习原子势能，做simulation；传统的DFT很耗时"
+    },
+
+    {
+        "tt": "Progress in Computational and Machine‐Learning Methods for Heterogeneous Small‐Molecule Activation",
+        "ab": "The chemical conversion of small molecules such as H2, H2O, O2, N2, CO2, and CH4 to energy and chemicals is critical for a sustainable energy future. However, the high chemical stability of these molecules poses grand challenges to the practical implementation of these processes. In this regard, computational approaches such as density functional theory, microkinetic modeling, data science, and machine learning have guided the rational design of catalysts by elucidating mechanistic insights, identifying active sites, and predicting catalytic activity. Here, the theory and methodologies for heterogeneous catalysis and their applications for small‐molecule activation are reviewed. An overview of fundamental theory and key computational methods for designing catalysts, including the emerging data science techniques in particular, is given. Applications of these methods for finding efficient heterogeneous catalysts for the activation of the aforementioned small molecules are then surveyed. Finally, promising directions of the computational catalysis field for further outlooks are discussed, focusing on the challenges and opportunities for new methods.",
+        "ti": "2020-03",
+        "cs": "review;利用computational和ML的方式指导催化剂设计；预测催化反应"
+    },
+
+    {
+        "tt": "Coupling a Crystal Graph Multilayer Descriptor to Active Learning for Rapid Discovery of 2D Ferromagnetic Semiconductors/Half‐Metals/Metals",
+        "ab": "2D ferromagnetic (FM) semiconductors/half‐metals/metals are the key materials toward next‐generation spintronic devices. However, such materials are still rather rare and the material search space is too large to explore exhaustively. Here, an adaptive framework to accelerate the discovery of 2D intrinsic FM materials is developed, by combining advanced machine‐learning (ML) techniques with high‐throughput density functional theory calculations. Successfully, about 90 intrinsic FM materials with desirable bandgap and excellent thermodynamic stability are screened out and a database containing 1459 2D magnetic materials is set up. To improve the performance of ML models on small‐scale datasets like diverse 2D materials, a crystal graph multilayer descriptor using the elemental property is proposed, with which ML models achieve prediction accuracy over 90% on thermodynamic stability, magnetism, and bandgap. This study not only provides dozens of compelling FM candidates for future spintronics, but also paves a feasible route for ML‐based rapid screening of diverse structures and/or complex properties.",
+        "ti": "2020-06",
+        "cs": "property prediction; 发现新材料"
+    },
+
+    {
+        "tt": "Artificial Chemist: An Autonomous Quantum Dot Synthesis Bot",
+        "ab": "The optimal synthesis of advanced nanomaterials with numerous reaction parameters, stages, and routes, poses one of the most complex challenges of modern colloidal science, and current strategies often fail to meet the demands of these combinatorially large systems. In response, an Artificial Chemist is presented: the integration of machine‐learning‐based experiment selection and high‐efficiency autonomous flow chemistry. With the self‐driving Artificial Chemist, made‐to‐measure inorganic perovskite quantum dots (QDs) in flow are autonomously synthesized, and their quantum yield and composition polydispersity at target bandgaps, spanning 1.9 to 2.9 eV, are simultaneously tuned. Utilizing the Artificial Chemist, eleven precision‐tailored QD synthesis compositions are obtained without any prior knowledge, within 30 h, using less than 210 mL of total starting QD solutions, and without user selection of experiments. Using the knowledge generated from these studies, the Artificial Chemist is pre‐trained to use a new batch of precursors and further accelerate the synthetic path discovery of QD compositions, by at least twofold. The knowledge‐transfer strategy further enhances the optoelectronic properties of the in‐flow synthesized QDs (within the same resources as the no‐prior‐knowledge experiments) and mitigates the issues of batch‐to‐batch precursor variability, resulting in QDs averaging within 1 meV from their target peak emission energy.",
+        "ti": "2020-06",
+        "cs": "ML-based实验选择；自动合成无机钙钛矿量子点。。。"
+    }
+
+]

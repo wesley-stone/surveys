@@ -1,0 +1,65 @@
+[
+    {
+        "tt": "",
+        "ab": "",
+        "ti": "",
+        "cs": ""
+    },
+
+    {
+        "tt": "Integrating multiple materials science projects in a single neural network",
+        "ab": "In data-intensive science, machine learning plays a critical role in processing big data. However, the potential of machine learning has been limited in the field of materials science because of the difficulty in treating complex real-world information as a digital language. Here, we propose to use graph-shaped databases with a common format to describe almost any materials science experimental data digitally, including chemical structures, processes, properties, and natural languages. The graphs can express real world’s data with little information loss. In our approach, a single neural network treats the versatile materials science data collected from over ten projects, whereas traditional approaches require individual models to be prepared to process each individual database and property. The multitask learning of miscellaneous factors increases the prediction accuracy of parameters synergistically by acquiring broad knowledge in the field. The integration is beneficial for developing general prediction models and for solving inverse problems in materials science.",
+        "ti": "2020-08",
+        "cs": "通用的数据模式，用一个神经网络学习所有数据；Gated GNN"
+    },
+    
+    {
+        "tt": "How machine learning can help select capping layers to suppress perovskite degradation",
+        "ab": "Environmental stability of perovskite solar cells (PSCs) has been improved by trial-and-error exploration of thin low-dimensional (LD) perovskite deposited on top of the perovskite absorber, called the capping layer. In this study, a machine-learning framework is presented to optimize this layer. We featurize 21 organic halide salts, apply them as capping layers onto methylammonium lead iodide (MAPbI3) films, age them under accelerated conditions, and determine features governing stability using supervised machine learning and Shapley values. We find that organic molecules’ low number of hydrogen-bonding donors and small topological polar surface area correlate with increased MAPbI3 film stability. The top performing organic halide, phenyltriethylammonium iodide (PTEAI), successfully extends the MAPbI3 stability lifetime by 4 ± 2 times over bare MAPbI3 and 1.3 ± 0.3 times over state-of-the-art octylammonium bromide (OABr). Through characterization, we find that this capping layer stabilizes the photoactive layer by changing the surface chemistry and suppressing methylammonium loss.",
+        "ti": "2020-08",
+        "cs": "监督学习预测合成物属性"
+    },
+
+    {
+        "tt": "Understanding the diversity of the metal-organic framework ecosystem",
+        "ab": "Millions of distinct metal-organic frameworks (MOFs) can be made by combining metal nodes and organic linkers. At present, over 90,000 MOFs have been synthesized and over 500,000 predicted. This raises the question whether a new experimental or predicted structure adds new information. For MOF chemists, the chemical design space is a combination of pore geometry, metal nodes, organic linkers, and functional groups, but at present we do not have a formalism to quantify optimal coverage of chemical design space. In this work, we develop a machine learning method to quantify similarities of MOFs to analyse their chemical diversity. This diversity analysis identifies biases in the databases, and we show that such bias can lead to incorrect conclusions. The developed formalism in this study provides a simple and practical guideline to see whether new structures will have the potential for new insights, or constitute a relatively small variation of existing structures.",
+        "ti": "2020-08",
+        "cs": "利用机器学习理解现有数据集"
+    },
+
+    {
+        "tt": "Machine learning enables completely automatic tuning of a quantum device faster than human experts",
+        "ab": "Variability is a problem for the scalability of semiconductor quantum devices. The parameter space is large, and the operating range is small. Our statistical tuning algorithm searches for specific electron transport features in gate-defined quantum dot devices with a gate voltage space of up to eight dimensions. Starting from the full range of each gate voltage, our machine learning algorithm can tune each device to optimal performance in a median time of under 70 minutes. This performance surpassed our best human benchmark (although both human and machine performance can be improved). The algorithm is approximately 180 times faster than an automated random search of the parameter space, and is suitable for different material systems and device architectures. Our results yield a quantitative measurement of device variability, from one device to another and after thermal cycling. Our machine learning algorithm can be extended to higher dimensions and other technologies.",
+        "ti": "2020-08",
+        "cs": "量子设备调试，搜索最优参数"
+    },
+
+    {
+        "tt": "Automated extraction of chemical synthesis actions from experimental procedures",
+        "ab": "Experimental procedures for chemical synthesis are commonly reported in prose in patents or in the scientific literature. The extraction of the details necessary to reproduce and validate a synthesis in a chemical laboratory is often a tedious task requiring extensive human intervention. We present a method to convert unstructured experimental procedures written in English to structured synthetic steps (action sequences) reflecting all the operations needed to successfully conduct the corresponding chemical reactions. To achieve this, we design a set of synthesis actions with predefined properties and a deep-learning sequence to sequence model based on the transformer architecture to convert experimental procedures to action sequences. The model is pretrained on vast amounts of data generated automatically with a custom rule-based natural language processing approach and refined on manually annotated samples. Predictions on our test set result in a perfect (100%) match of the action sequence for 60.8% of sentences, a 90% match for 71.3% of sentences, and a 75% match for 82.4% of sentences.",
+        "ti": "2020-07",
+        "cs": "transformer;根据实验过程预测合成过程的一些细节"
+    },
+
+    {
+        "tt": "Machine-learning-revealed statistics of the particle-carbon/binder detachment in lithium-ion battery cathodes",
+        "ab": "The microstructure of a composite electrode determines how individual battery particles are charged and discharged in a lithium-ion battery. It is a frontier challenge to experimentally visualize and, subsequently, to understand the electrochemical consequences of battery particles’ evolving (de)attachment with the conductive matrix. Herein, we tackle this issue with a unique combination of multiscale experimental approaches, machine-learning-assisted statistical analysis, and experiment-informed mathematical modeling. Our results suggest that the degree of particle detachment is positively correlated with the charging rate and that smaller particles exhibit a higher degree of uncertainty in their detachment from the carbon/binder matrix. We further explore the feasibility and limitation of utilizing the reconstructed electron density as a proxy for the state-of-charge. Our findings highlight the importance of precisely quantifying the evolving nature of the battery electrode’s microstructure with statistical confidence, which is a key to maximize the utility of active particles towards higher battery capacity.",
+        "ti": "2020-05",
+        "cs": "监督学习来辅助属性统计"
+    },
+
+
+    {
+        "tt": "Infrared spectroscopy data- and physics-driven machine learning for characterizing surface microstructure of complex materials",
+        "ab": "There is a need to characterize complex materials and their dynamics under reaction conditions to accelerate materials design. Adsorbate vibrational excitations are selective to adsorbate/surface interactions and infrared (IR) spectra associated with activating adsorbate vibrational modes are accurate, capture details of most modes, and can be obtained operando. Current interpretation depends on heuristic peak assignments for simple spectra, precluding the possibility of obtaining detailed structural information. Here, we combine data-based approaches with chemistry-dependent problem formulation to develop physics-driven surrogate models that generate synthetic IR spectra from first-principles calculations. Using synthetic IR spectra of carbon monoxide on platinum, we implement multinomial regression via neural network ensembles to learn probability distributions functions (pdfs) that describe adsorption sites and quantify uncertainty. We use these pdfs to infer detailed surface microstructure from experimental spectra and extend this methodology to other systems as a first step towards characterizing complex interfaces and closing the materials gap.",
+        "ti": "2020-03",
+        "cs": "characterizing；根据物体表面的情况预测属性；传统的方法比较heuristic"
+    },
+
+    {
+        "tt": "Uncovering the effects of interface-induced ordering of liquid on crystal growth using machine learning",
+        "ab": "The process of crystallization is often understood in terms of the fundamental microstructural elements of the crystallite being formed, such as surface orientation or the presence of defects. Considerably less is known about the role of the liquid structure on the kinetics of crystal growth. Here atomistic simulations and machine learning methods are employed together to demonstrate that the liquid adjacent to solid-liquid interfaces presents significant structural ordering, which effectively reduces the mobility of atoms and slows down the crystallization kinetics. Through detailed studies of silicon and copper we discover that the extent to which liquid mobility is affected by interface-induced ordering (IIO) varies greatly with the degree of ordering and nature of the adjacent interface. Physical mechanisms behind the IIO anisotropy are explained and it is demonstrated that incorporation of this effect on a physically-motivated crystal growth model enables the quantitative prediction of the growth rate temperature dependence.",
+        "ti": "2020-01",
+        "cs": ""
+    },
+]

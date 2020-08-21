@@ -1,0 +1,37 @@
+[
+    {
+        "tt": "",
+        "ab": "",
+        "ti": "",
+        "cs": ""
+    },
+
+    {
+        "tt": "Crystal symmetry determination in electron diffraction using machine learning",
+        "ab": "Electron backscatter diffraction (EBSD) is one of the primary tools for crystal structure determination. However, this method requires human input to select potential phases for Hough-based or dictionary pattern matching and is not well suited for phase identification. Automated phase identification is the first step in making EBSD into a high-throughput technique. We used a machine learning–based approach and developed a general methodology for rapid and autonomous identification of the crystal symmetry from EBSD patterns. We evaluated our algorithm with diffraction patterns from materials outside the training set. The neural network assigned importance to the same symmetry features that a crystallographer would use for structure identification.",
+        "ti": "2020-01",
+        "cs": "CNN判断晶体对称性；传统方法慢，且需要人工输入"
+    },
+
+    {
+        "tt": "Hidden fluid mechanics: Learning velocity and pressure fields from flow visualizations",
+        "ab": "For centuries, flow visualization has been the art of making fluid motion visible in physical and biological systems. Although such flow patterns can be, in principle, described by the Navier-Stokes equations, extracting the velocity and pressure fields directly from the images is challenging. We addressed this problem by developing hidden fluid mechanics (HFM), a physics-informed deep-learning framework capable of encoding the Navier-Stokes equations into the neural networks while being agnostic to the geometry or the initial and boundary conditions. We demonstrate HFM for several physical and biomedical problems by extracting quantitative information for which direct measurements may not be possible. HFM is robust to low resolution and substantial noise in the observation data, which is important for potential applications.",
+        "ti": "2020-02",
+        "cs": "根据图像预测流体速度和压力"
+    },
+
+    {
+        "tt": "A robotic platform for flow synthesis of organic compounds informed by AI planning",
+        "ab": "The ability to synthesize complex organic molecules is essential to the discovery and manufacture of functional compounds, including small-molecule medicines. Despite advances in laboratory automation, the identification and development of synthetic routes remain a manual process and experimental synthesis platforms must be manually configured to suit the type of chemistry to be performed, requiring time and effort investment from expert chemists. The ideal automated synthesis platform would be capable of planning its own synthetic routes and executing them under conditions that facilitate scale-up to production goals. Individual elements of the chemical development process (design, route development, experimental configuration, and execution) have been streamlined in previous studies, but none has presented a path toward integration of computer-aided synthesis planning (CASP), expert refined chemical recipe generation, and robotically executed chemical synthesis.",
+        "ti": "2019-08",
+        "cs": "自动生成合成路线"
+    },
+
+    {
+        "tt": "",
+        "ab": "",
+        "ti": "",
+        "cs": ""
+    },
+
+]

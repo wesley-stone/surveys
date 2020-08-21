@@ -1,0 +1,38 @@
+[
+    {
+        "tt": "",
+        "ab": "",
+        "ti": "",
+        "cs": "材料的比较少，反而纯DNN和ML的挺多"
+    },
+
+    {
+        "tt": "Decoding crystallography from high-resolution electron imaging and diffraction datasets with deep learning",
+        "ab": "While machine learning has been making enormous strides in many technical areas, it is still massively underused in transmission electron microscopy. To address this, a convolutional neural network model was developed for reliable classification of crystal structures from small numbers of electron images and diffraction patterns with no preferred orientation. Diffraction data containing 571,340 individual crystals divided among seven families, 32 genera, and 230 space groups were used to train the network. Despite the highly imbalanced dataset, the network narrows down the space groups to the top two with over 70% confidence in the worst case and up to 95% in the common cases. As examples, we benchmarked against alloys to two-dimensional materials to cross-validate our deep-learning model against high-resolution transmission electron images and diffraction patterns. We present this result both as a research tool and deep-learning application for diffraction analysis.",
+        "ti": "2019-10",
+        "cs": "CNN for classification; large, imbalanced dataset"
+    },
+
+    {
+        "tt": "Machine learning–assisted molecular design and efficiency prediction for high-performance organic photovoltaic materials",
+        "ab": "In the process of finding high-performance materials for organic photovoltaics (OPVs), it is meaningful if one can establish the relationship between chemical structures and photovoltaic properties even before synthesizing them. Here, we first establish a database containing over 1700 donor materials reported in the literature. Through supervised learning, our machine learning (ML) models can build up the structure-property relationship and, thus, implement fast screening of OPV materials. We explore several expressions for molecule structures, i.e., images, ASCII strings, descriptors, and fingerprints, as inputs for various ML algorithms. It is found that fingerprints with length over 1000 bits can obtain high prediction accuracy. The reliability of our approach is further verified by screening 10 newly designed donor materials. Good consistency between model predictions and experimental outcomes is obtained. The result indicates that ML is a powerful tool to prescreen new OPV materials, thus accelerating the development of the OPV field.",
+        "ti": "2019-11",
+        "cs": "structure到property的预测任务"
+    },
+
+    {
+        "tt": "Designing complex architectured materials with generative adversarial networks",
+        "ab": "Architectured materials on length scales from nanometers to meters are desirable for diverse applications. Recent advances in additive manufacturing have made mass production of complex architectured materials technologically and economically feasible. Existing architecture design approaches such as bioinspiration, Edisonian, and optimization, however, generally rely on experienced designers’ prior knowledge, limiting broad applications of architectured materials. Particularly challenging is designing architectured materials with extreme properties, such as the Hashin-Shtrikman upper bounds on isotropic elasticity in an experience-free manner without prior knowledge. Here, we present an experience-free and systematic approach for the design of complex architectured materials with generative adversarial networks. The networks are trained using simulation data from millions of randomly generated architectures categorized based on different crystallographic symmetries. We demonstrate modeling and experimental results of more than 400 two-dimensional architectures that approach the Hashin-Shtrikman upper bounds on isotropic elastic stiffness with porosities from 0.05 to 0.75.",
+        "ti": "2020-04",
+        "cs": "GAN生成复杂合成物"
+    },
+
+    {
+        "tt": "Inverse design of porous materials using artificial neural networks",
+        "ab": "Generating optimal nanomaterials using artificial neural networks can potentially lead to a notable revolution in future materials design. Although progress has been made in creating small and simple molecules, complex materials such as crystalline porous materials have yet to be generated using any of the neural networks. Here, we have implemented a generative adversarial network that uses a training set of 31,713 known zeolites to produce 121 crystalline porous materials. Our neural network takes in inputs in the form of energy and material dimensions, and we show that zeolites with a user-desired range of 4 kJ/mol methane heat of adsorption can be reliably produced using our neural network. The fine-tuning of user-desired capability can potentially accelerate materials development as it demonstrates a successful case of inverse design of porous materials.",
+        "ti": "2020-01",
+        "cs": "GAN生成多孔材料结构"
+    }
+
+
+]
