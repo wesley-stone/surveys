@@ -1,0 +1,61 @@
+[
+    {
+        "tt": "",
+        "ab": "",
+        "ti": "",
+        "cs": "挺多DL和material结合的工作"
+    },
+    {
+        "tt": "Machine Learning Assisted Synthesis of Metal–Organic Nanocapsules",
+        "ab": "Herein, we report machine learning algorithms by training data sets from a set of both successful and failed experiments for studying the crystallization propensity of metal–organic nanocapsules (MONCs). Among a variety of studied machine learning algorithms, XGBoost affords the highest prediction accuracy of >90%. The derived chemical feature scores that determine importance of reaction parameters from the XGBoost model assist to identify synthesis parameters for successfully synthesizing new hierarchical structures of MONCs, showing superior performance to a well-trained chemist. This work demonstrates that the machine learning algorithms can assist the chemists to faster search for the optimal reaction parameters from many experimental variables, whose features are usually hidden in the high-dimensional space.",
+        "ti": "2019-12",
+        "cs": "XGBoost做性能预测；利用tree的重要性看重要的参数，最终效果比专家更好"
+    },
+    
+    {
+        "tt": "Machine-Learning-Assisted Synthesis of Polar Racemates",
+        "ab": "Racemates have recently received attention as nonlinear optical and piezoelectric materials. Here, a machine-learning-assisted composition space approach was applied to synthesize the missing M = Ti, Zr members of the Δ,Λ-[Cu(bpy)2(H2O)]2[MF6]2·3H2O (M = Ti, Zr, Hf; bpy = 2,2′-bipyridine) family (space group: Pna21). In each (CuO, MO2)/bpy/HF(aq) (M = Ti, Zr, Hf) system, the polar noncentrosymmetric racemate (M-NCS) forms in competition with a centrosymmetric one-dimensional chain compound (M-CS) based on alternating Cu(bpy)(H2O)22+ and MF62– basic building units (space groups: Ti-CS (Pnma), Zr-CS (P1̅), Hf-CS (P2/n)). Machine learning models were trained on reaction parameters to gain unbiased insight into the underlying statistical trends in each composition space. A human-interpretable decision tree shows that phase selection is driven primarily by the bpy:CuO molar ratio for reactions containing Zr or Hf, and predicts that formation of the Ti-NCS compound requires that the amount of HF present be decreased to raise the pH, which we verified experimentally. Predictive leave-one-metal-out (LOO) models further confirm that behavior in the Ti system is distinct from that of the Zr and Hf systems. The chemical origin of this distinction was probed via fluorine K-edge X-ray absorption spectroscopy. Pre-edge features in the F1s X-ray absorption spectra reveal the strong ligand-to-metal π bonding between Ti(3d – t2g) and F(2p) states that distinguishes the TiF62– anion from the ZrF62– and HfF62– anions.",
+        "ti": "2020-04",
+        "cs": "外消旋酸盐;用tree找到关于反应参数的unbiased insight"
+    },
+
+    {
+        "tt": "A Universal Machine Learning Algorithm for Large-Scale Screening of Materials",
+        "ab": "Application of machine learning (ML) methods for the determination of the gas adsorption capacities of nanomaterials, such as metal–organic frameworks (MOF), has been extensively investigated over the past few years as a computationally efficient alternative to time-consuming and computationally demanding molecular simulations. Depending on the thermodynamic conditions and the adsorbed gas, ML has been found to provide very accurate results. In this work, we go one step further and we introduce chemical intuition in our descriptors by using the “type” of the atoms in the structure, instead of the previously used building blocks, to account for the chemical character of the MOF. ML predictions for the methane and carbon dioxide adsorption capacities of several tens of thousands of hypothetical MOFs are evaluated at various thermodynamic conditions using the random forest algorithm. For all cases examined, the use of atom types instead of building blocks leads to significantly more accurate predictions, while the number of MOFs needed for the training of the ML algorithm in order to achieve a specified accuracy can be reduced by an order of magnitude. More importantly, since practically there are an unlimited number of building blocks that materials can be made of but a limited number of atom types, the proposed approach is more general and can be considered as universal. The universality and transferability was proved by predicting the adsorption properties of a completely different family of materials after the training of the ML algorithm in MOFs.",
+        "ti": "2020-02",
+        "cs": "ML替代molecular simulation，速度快；预测gas adsorption capacity"
+    },
+
+
+    {
+        "tt": "Electric Dipole Descriptor for Machine Learning Prediction of Catalyst Surface–Molecular Adsorbate Interactions",
+        "ab": "The challenge of evaluating catalyst surface–molecular adsorbate interactions holds the key for rational design of catalysts. Finding an experimentally measurable and theoretically computable descriptor for evaluating surface–adsorbate interactions is a significant step toward achieving this goal. Here we show that the electric dipole moment can serve as a convenient yet accurate descriptor for establishing structure–property relationships for molecular adsorbates on metal catalyst surfaces. By training a machine learning neural network with a large data set of first-principles calculations, we achieve quick and accurate predictions of molecular adsorption energy and transferred charge. The training model using NO/CO@Au(111) can be extended to study additional substrates such as Au(001) or Ag(111), thus exhibiting extraordinary transferability. These findings validate the effectiveness of the electric dipole descriptor, providing an efficient modality for future catalyst design.",
+        "ti": "2020-04",
+        "cs": "ML预测electric dipole moment"
+    },
+
+    {
+        "tt": "AI-Assisted Exploration of Superionic Glass-Type Li+ Conductors with Aromatic Structures",
+        "ab": "It has long remained challenging to predict the properties of complex chemical systems, such as polymer-based materials and their composites. We have constructed the largest database of lithium-conducting solid polymer electrolytes (104 entries) and employed a transfer-learned graph neural network to accurately predict their conductivity (mean absolute error of less than 1 on a logarithmic scale). The bias-free prediction by the network helped us to find superionic conductors composed of charge-transfer complexes of aromatic polymers (ionic conductivity of around 10–3 S/cm at room temperature). The glassy design was contrary to the traditional concept of rubbery polymer electrolytes, but it was found to be appropriate to achieve fast, decoupled motion of ionic species from polymer chains and to enhance thermal and mechanical stability. The unbiased suggestions generated by machine learning models can help researches to discover unexpected chemical phenomena, which could also induce a paradigm shift of energy-related functional materials.",
+        "ti": "2020-01",
+        "cs": "预测锂电池材料导电性;the largest database of lithium-conducting solid polymer electrolytes; transfer learning, GNN"
+    },
+
+    {
+        "tt": "A Convolutional Neural Network-Based Approach for the Rapid Annotation of Molecularly Diverse Natural Products",
+        "ab": "This report describes the first application of the novel NMR-based machine learning tool “Small Molecule Accurate Recognition Technology” (SMART 2.0) for mixture analysis and subsequent accelerated discovery and characterization of new natural products. The concept was applied to the extract of a filamentous marine cyanobacterium known to be a prolific producer of cytotoxic natural products. This environmental Symploca extract was roughly fractionated, and then prioritized and guided by cancer cell cytotoxicity, NMR-based SMART 2.0, and MS2-based molecular networking. This led to the isolation and rapid identification of a new chimeric swinholide-like macrolide, symplocolide A, as well as the annotation of swinholide A, samholides A–I, and several new derivatives. The planar structure of symplocolide A was confirmed to be a structural hybrid between swinholide A and luminaolide B by 1D/2D NMR and LC-MS2 analysis. A second example applies SMART 2.0 to the characterization of structurally novel cyclic peptides, and compares this approach to the recently appearing “atomic sort” method. This study exemplifies the revolutionary potential of combined traditional and deep learning-assisted analytical approaches to overcome longstanding challenges in natural products drug discovery.",
+        "ti": "2020-02",
+        "cs": "ML tool set; mixture analysis, characterization"
+    },
+
+    {
+        "tt": "Development of a Computer-Guided Workflow for Catalyst Optimization. Descriptor Validation, Subset Selection, and Training Set Analysis",
+        "ab": "Modern, enantioselective catalyst development is driven largely by empiricism. Although this approach has fostered the introduction of most of the existing synthetic methods, it is inherently limited by the skill, creativity, and chemical intuition of the practitioner. Herein, we present a complementary approach to catalyst optimization in which statistical methods are used at each stage to streamline development. To construct the optimization informatics workflow, a number of critical components had to be subjected to rigorous validation. First, the critically important molecular descriptors were validated in two case studies to establish the importance of conformation-dependent molecular representations. Next, with a large data set available, it was possible to investigate the amount of data necessary to make predictive models with different modeling methods. Given the commercial availability of many catalyst structures, it was possible to compare models generated with algorithmically selected training sets and commercially available training sets. Finally, the augmentation of limited data sets is demonstrated in a method informed by unsupervised learning to restore the accuracy of the generated models",
+        "ti": "2020-01",
+        "cs": "data-driven method; 催化剂开发; 无监督学习增加样本，提高模型准确度"
+    },
+
+    {
+
+    }
+]
