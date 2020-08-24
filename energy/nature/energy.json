@@ -1,0 +1,43 @@
+[
+    {
+        "tt": "",
+        "ab": "",
+        "ti": "",
+        "cs": ""
+    },
+
+    {
+        "tt": "Machine learning model to project the impact of COVID-19 on US motor gasoline demand",
+        "ab": "Owing to the global lockdowns that resulted from the COVID-19 pandemic, fuel demand plummeted and the price of oil futures went negative in April 2020. Robust fuel demand projections are crucial to economic and energy planning and policy discussions. Here we incorporate pandemic projections and people’s resulting travel and trip activities and fuel usage in a machine-learning-based model to project the US medium-term gasoline demand and study the impact of government intervention. We found that under the reference infection scenario, the US gasoline demand grows slowly after a quick rebound in May, and is unlikely to fully recover prior to October 2020. Under the reference and pessimistic scenario, continual lockdown (no reopening) could worsen the motor gasoline demand temporarily, but it helps the demand recover to a normal level quicker. Under the optimistic infection scenario, gasoline demand will recover close to the non-pandemic level by October 2020.",
+        "ti": "2020-07",
+        "cs": "DL预测疫情期间的汽油需求"
+    },
+
+    {
+        "tt": "Data-driven prediction of battery cycle life before capacity degradation",
+        "ab": "Accurately predicting the lifetime of complex, nonlinear systems such as lithium-ion batteries is critical for accelerating technology development. However, diverse aging mechanisms, significant device variability and dynamic operating conditions have remained major challenges. We generate a comprehensive dataset consisting of 124 commercial lithium iron phosphate/graphite cells cycled under fast-charging conditions, with widely varying cycle lives ranging from 150 to 2,300 cycles. Using discharge voltage curves from early cycles yet to exhibit capacity degradation, we apply machine-learning tools to both predict and classify cells by cycle life. Our best models achieve 9.1% test error for quantitatively predicting cycle life using the first 100 cycles (exhibiting a median increase of 0.2% from initial capacity) and 4.9% test error using the first 5 cycles for classifying cycle life into two groups. This work highlights the promise of combining deliberate data generation with data-driven modelling to predict the behaviour of complex dynamical systems.",
+        "ti": "2019-03",
+        "cs": "电池寿命相关的数据集；ML预测电池寿命；电池的差异大、种类多"
+    },
+
+    {
+        "tt": "The impact of mandatory energy audits on building energy use",
+        "ab": "Cities are increasingly adopting energy policies that reduce information asymmetries and knowledge gaps through data transparency, including energy disclosure and mandatory audit requirements for existing buildings. Although such audits impose non-trivial costs on building owners, their energy use impacts have not been empirically evaluated. Here we examine the effect of a large-scale mandatory audit policy—New York City’s Local Law 87—on building energy use, using detailed audit and energy data between 2011 and 2016 for approximately 4,000 buildings. This specific policy context, in which the compliance year is randomly assigned, provides a unique opportunity to explore the audit effect without the self-selection bias found in studies of voluntary audit policies. We find energy use reductions of approximately –2.5% for multifamily residential buildings and –4.9% for office buildings. The results suggest that mandatory audits, by themselves, create an insufficient incentive to invest in energy efficiency at the scale needed to meet citywide carbon-reduction goals.",
+        "ti": "2020-03",
+        "cs": "偏数据统计和分析，衡量强制托管对节约能源的影响；家庭用电的方向可能可以和ML结合"
+    },
+
+    {
+        "tt": "Quantifying the impacts of climate change and extreme climate events on energy systems",
+        "ab": "Climate induced extreme weather events and weather variations will affect both the demand of energy and the resilience of energy supply systems. The specific potential impact of extreme events on energy systems has been difficult to quantify due to the unpredictability of future weather events. Here we develop a stochastic-robust optimization method to consider both low impact variations and extreme events. Applications of the method to 30 cities in Sweden, by considering 13 climate change scenarios, reveal that uncertainties in renewable energy potential and demand can lead to a significant performance gap (up to 34% for grid integration) brought by future climate variations and a drop in power supply reliability (up to 16%) due to extreme weather events. Appropriate quantification of the climate change impacts will ensure robust operation of the energy systems and enable renewable energy penetration above 30% for a majority of the cities.",
+        "ti": "2020-02",
+        "cs": "用一个优化模型尝试应对天气变化，从而分析天气对能源系统的影响"
+    },
+
+    {
+        "tt": "",
+        "ab": "",
+        "ti": "",
+        "cs": ""
+    }
+]

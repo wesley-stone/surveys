@@ -1,0 +1,23 @@
+[
+
+    {
+        "tt": "Rapid, comprehensive screening of ionic liquids towards sustainable applications",
+        "ab": "A computational screening strategy applied to 8 million synthetically diverse ionic liquids, demonstrates its value for sustainable solvent design. In contrast to previous studies which have largely focused on single characteristics, important properties such as viscosity, density, thermal stability and toxicity, were estimated using machine learning. Experimental characterization of 15 compounds selected from the library reinforced the utility of the approach. Over 2600 ionic liquids, a majority of which have never been reported before, were investigated for applications in CO2 and H2S gas separation, and cellulose dissolution, using density functional theory calculations. Among these, around 250 low cytotoxicity and low viscosity ionic liquids merit further investigation.",
+        "ti": "2019-10",
+        "cs": "ML预测离子溶液的性质；离子溶液可以用来分离CO2中的H2S、纤维素溶解"
+    },
+
+    {
+        "tt": "",
+        "ab": "",
+        "ti": "",
+        "cs": ""
+    },
+
+    {
+        "tt": "",
+        "ab": "",
+        "ti": "",
+        "cs": ""
+    }
+]

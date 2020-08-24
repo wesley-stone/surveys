@@ -1,0 +1,23 @@
+[
+    {
+        "tt": "",
+        "ab": "",
+        "ti": "",
+        "cs": ""
+    },
+
+    {
+        "tt": "The impact of intelligent cyber-physical systems on the decarbonization of energy",
+        "ab": "The decarbonisation of energy provision is key to managing global greenhouse gas emissions and hence mitigating climate change. Digital technologies such as big data, machine learning, and the Internet of Things are receiving more and more attention as they can aid the decarbonisation process while requiring limited investments. The orchestration of these novel technologies, so-called cyber-physical systems (CPS), provides further, synergetic effects that increase efficiency of energy provision and industrial production, thereby optimising economic feasibility and environmental impact. This comprehensive review article assesses the current as well as the potential impact of digital technologies within CPS on the decarbonisation of energy systems. Ad hoc calculation for selected applications of CPS and its subsystems estimates not only the economic impact but also the emission reduction potential. This assessment clearly shows that digitalisation of energy systems using CPS completely alters the marginal abatement cost curve (MACC) and creates novel pathways for the transition to a low-carbon energy system. Moreover, the assessment concludes that when CPS are combined with artificial intelligence (AI), decarbonisation could potentially progress at an unforeseeable pace while introducing unpredictable and potentially existential risks. Therefore, the impact of intelligent CPS on systemic resilience and energy security is discussed and policy recommendations are deducted. The assessment shows that the potential benefits clearly outweigh the latent risks as long as these are managed by policy makers.",
+        "ti": "2020-03",
+        "cs": "review；分析了AI对能源物联网的影响，包括优点和潜在风险"
+    },
+
+    {
+        "tt": "Visualizing morphological principles for efficient photocurrent generation in organic non-fullerene acceptor blends",
+        "ab": "The efficiency of organic solar cells with donor polymers and non-fullerene acceptors depends on a complex morphology. Similar chemical and electronic structures impede generating in-depth insights in morphological details. We visualise molecular arrangements and the nanomorphology in PBDB-T:ITIC blends by correlating transmission electron micrographs and material distribution maps. Material phases are identified by machine learning on hyperspectral data from electron spectroscopic imaging. We observe a specific polymorph of ITIC after thermal annealing. During annealing, enhanced by the presence of additives, PBDB-T acts as nucleation site for ITIC due to strong π–π-interactions of the electron withdrawing groups of both molecules. This leads to efficient charge transport paths in ITIC phases with direct π–π-contact to PBDB-T at the interface. We conclude that π–π-stacking between donor and acceptor molecules facilitates charge carrier generation within mixed interface regions.",
+        "ti": "2020-04",
+        "cs": "ML根据电子光谱图像预测material phase"
+    }
+
+]
